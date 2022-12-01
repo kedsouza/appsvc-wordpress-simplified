@@ -1,0 +1,1 @@
+# appsvc-wordpress-simplified
