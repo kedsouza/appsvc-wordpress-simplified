@@ -2,7 +2,7 @@
 
 ## Get Started
 
-This repo contains a repo of a custom docker image based of the official wordpress image, built and ready to be deployed to Azure App Service. Deploying via the below botton will also create an Azure MySQL Flexible Server. 
+This repo contains a repo of a custom docker image based of the official wordpress image, built and ready to be deployed to Azure App Service. Deploying via the below botton will also create an Azure MySQL Flexible Server needed for the wordpress site. 
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fwordpressimplified.blob.core.windows.net%2Fapp-svc-wordpress-simplified-json%2Fmain.json)
 
