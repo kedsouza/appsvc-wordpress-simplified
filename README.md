@@ -14,7 +14,7 @@ For customers looking for a more enterprise grade solution with virtual network 
 https://learn.microsoft.com/en-us/azure/app-service/quickstart-wordpress 
 
 ## Reasoning behind this repo. 
-- The offical app service wordpress offering forces creating of a Azure Virtual Network with the MySQLResource being. This can be intimidating for new users using Azure to understand and maintain this setup. This this setup will improve the simplicity as opposed to using the offical App Service WordPress Offering, by creating the bare minimal Azure Resrouces (App Service / MySQL Server) to have your site functional on Azure. 
+- The offical app service wordpress offering forces creating of a Azure Virtual Network with the MySQLResource being behind a private endpoint. This can be intimidating for new users using Azure to understand and maintain this setup. This this setup will improve the simplicity as opposed to using the offical App Service WordPress Offering, by creating the bare minimal Azure Resrouces (App Service / MySQL Server) to have your site functional on Azure. 
 -  This image is based of the offical wordpress image from dockerhub: https://hub.docker.com/_/wordpress. The changes to the official image are designed to be minimal in order to stick closer to the original image from wordpress. All changes are commented in the repo files. 
 
 ## Limitations / Disclaimer
