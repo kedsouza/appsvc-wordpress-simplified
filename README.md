@@ -18,8 +18,7 @@ https://learn.microsoft.com/en-us/azure/app-service/quickstart-wordpress
 -  This image is based of the offical wordpress image from dockerhub: https://hub.docker.com/_/wordpress. The changes to the official image are designed to be minimal in order to stick closer to the original image from wordpress. All changes are commented in the repo files. 
 
 ## Limitations / Disclaimer
-- The size of your Wordpress Content cannot increase 14 GB, per app service plan, this cannot be modified.
-- This has not been fully tested yet when scaling out to mulitple instances on your app service plans.  
+- The size of your Wordpress Content plus the image must be under 15GB, per app service plan, this cannot be modified. You can check the usage percentage by naviagating to your app service -> Diagnose and Solve Problems -> Searching for "Linux - Host Disk Space Usage".  
 - This is a personal project and not officially supported by the Microsoft Azure App Service Product Group. Feel free to post create issues on this repo however support will be provided on a *best effort basis*.
 
 
