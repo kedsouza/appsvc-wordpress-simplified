@@ -20,7 +20,7 @@ https://learn.microsoft.com/en-us/azure/app-service/quickstart-wordpress
 ## Limitations / Disclaimer
 - The size of your Wordpress Content plus the image must be under 15GB, per app service plan, this cannot be modified. You can check the usage percentage by naviagating to your *App Service on the Azure Portal -> Diagnose and Solve Problems -> Searching for "Linux - Host Disk Space Usage"*.  
 - This has not been fully tested when scaled out to multiple instances. 
-- This is a personal project and not officially supported by the Microsoft Azure App Service Product Group. Feel free to post create issues on this repo however support will be provided on a *best effort basis*.
+- This is a personal project and not officially supported by the Microsoft Azure App Service Product Group. 
 
 
 
